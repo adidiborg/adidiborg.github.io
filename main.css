@@ -21,26 +21,26 @@ img {
   height: auto;
 }
 span {
-  color: #00ffff;
+  color: #a076ce;
 }
 .links {
   padding: 1rem;
   z-index: 2;
 }
 a:link {
-  color: white;
+  color: #c9c9c9;
 }
 
 a:visited {
-  color: white;
+  color: #c9c9c9;
 }
 
 a:hover {
-  color: #00ffff;
+  color: #a076ce;
 }
 
 a:active {
-  color: white;
+  color: #c9c9c9;
 }
 .about {
   font-size: 1.2rem;
@@ -53,15 +53,10 @@ i {
   font-size: 2rem;
 }
 
-body {
-  background: linear-gradient(90deg, white 17px, transparent 1%) center,
-    linear-gradient(white 17px, transparent 1%) center, black;
-  background-size: 18px 18px;
-}
 
 body {
-  color: white;
-  background: url(galazy.jpg);
+  color: #c9c9c9;
+  background: #1c1c1c;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
