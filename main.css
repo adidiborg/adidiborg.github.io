@@ -36,14 +36,14 @@ a:visited {
 }
 
 a:hover {
-  color: #a076ce;
+  color: #77e1cd;
 }
 
 a:active {
   color: #c9c9c9;
 }
 .about {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0rem 30%;
   margin-bottom: 20%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -51,6 +51,11 @@ a:active {
 }
 i {
   font-size: 2rem;
+}
+
+small{
+  font-size: 0.9rem;
+  color: #a3a3a3;
 }
 
 
