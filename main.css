@@ -46,7 +46,7 @@ a:active {
   font-size: 1.1rem;
   padding: 0rem 30%;
   margin-bottom: 20%;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Jetbrains Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
   z-index: 2;
 }
 i {
