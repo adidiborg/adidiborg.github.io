@@ -1,4 +1,4 @@
-title: adidiborg archive
+title: adidiborg
 description: adidiborg archive
 author: "Aditya Borgaonkar"
 
@@ -8,8 +8,10 @@ base_url: /gh-pages-minima-starter
 repository: adidiborg/adidiborg.github.io
 
 # Minima social links
-github_username: adidiborg
-linkedin_username: adidiborg
+github_username: github
+linkedin_username: linkedin
+instagram_username: instagram
+youtube_username: youtube
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
