@@ -1,37 +1,60 @@
+###########
+# site.title
+
 title: adidiborg
-description: adidiborg archive
-author: "Aditya Borgaonkar"
+description: adidiborg's website
+# baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
+url: "https://adidiborg.github.io" # the base hostname & protocol for your site
+# host: 0.0.0.0
 
-theme: minima
 
-base_url: /gh-pages-minima-starter
-repository: adidiborg/adidiborg.github.io
+#########################
+# more settings
 
-# Minima social links
-github_username: github
-linkedin_username: linkedin
-instagram_username: instagram
-youtube_username: youtube
+plugins:
+  - jekyll-redirect-from
 
-# Minima: show excerpts in the frontpage
-show_excerpts: true
+whitelist:
+  - jekyll-redirect-from
 
-minima:
-  date_format: "%Y-%m-%d"
+markdown: kramdown
 
-# Minima: custom header links
-header_pages:
-  - _pages/frontpage.md
-  - _pages/about.md
-  - _pages/archive.md
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
 
-include:
-    - _pages
+# sass:
+#   sass_dir: css
+#   style:    compressed
 
-exclude: 
-    - .gitignore
-    - docker-compose.yml
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+collections:
+  my_tags:
+    output: true
+    permalink: /tagged/:slug/
+defaults:
+  -
+    scope:
+      path: ""
+      type: my_tags
+    values:
+      layout: tagged
+
+# baseurl: ""
+permalink: /archive/:slug
+timezone: Asia/Calcutta
+future: false
+
+exclude:
+- README.md
+- LICENSE.md
+
+exclude: [vendor]
+
+Archive: /archive
+
+
