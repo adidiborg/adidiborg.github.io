@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-bear-theme"
   spec.version       = "0.1.6"
-  spec.authors       = ["knhash"]
-  spec.email         = ["mail@knhash.in"]
+  spec.authors       = ["adidiborg"]
+  spec.email         = ["borg.aditya@gmail.com"]
 
   spec.summary       = "A minimal, text focused blog theme inspired by Bear Blog"
   spec.homepage      = "https://knhash.in/jekyllBear"
