@@ -36,13 +36,12 @@ b {
 }
 
 a {
-    color: #3273dc;
     cursor: pointer;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; 
+    text-decoration: none; 
 }
 
 .title {
@@ -276,6 +275,9 @@ ul.discover-posts li small a {
     color: #777 !important;
 }
 
+a.blog-title {
+    color: #DB0042;
+}
 
 @media (prefers-color-scheme: dark) {
     body {
@@ -312,6 +314,10 @@ ul.discover-posts li small a {
 
     .helptext {
         color: #aaa;
+    }
+
+    a.blog-title {
+        color: #DB0042;
     }
 }
 
