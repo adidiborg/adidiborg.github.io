@@ -1,7 +1,7 @@
 ###########
 # site.title
 
-title: adidiborg
+title: adidiborg github io
 description: adidiborg's website
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
 url: "https://adidiborg.github.io" # the base hostname & protocol for your site
@@ -57,4 +57,7 @@ exclude: [vendor]
 
 Archive: /archive
 
-
+special_links:
+  "Instagram": https://www.instagram.com/adidiborg/
+  "Twitter": https://twitter.com/adidiborg
+  "Linkedin": https://www.linkedin.com/in/adidiborg/

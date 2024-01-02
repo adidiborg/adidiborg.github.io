@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, sans-serif;
+    font-family: "benton-sans", sans-serif;
     margin: auto;
     padding: 20px;
     max-width: 720px;
@@ -295,7 +295,7 @@ ul.discover-posts li small a {
     }
 
     a {
-        color: #DB0042;
+        color: rgba(255,255,255,0.70);;
     }
 
     code {
