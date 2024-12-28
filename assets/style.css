@@ -42,7 +42,7 @@ a {
 
 a:hover {
     text-decoration: none; 
-    color: #DB0042;
+    color: #e8ff26;
 
 }
 
@@ -243,7 +243,7 @@ ul.blog-posts li span {
 }
 
 ul.blog-posts li a:visited {
-    color: #DB0042;
+    color: #e8ff26;
 }
 
 /* discovery feed */
@@ -262,7 +262,7 @@ ul.discover-posts li span {
 }
 
 ul.discover-posts li a:visited {
-    color: #DB0042;
+    color: #e8ff26;
 }
 
 ul.discover-posts li div {
@@ -278,7 +278,7 @@ ul.discover-posts li small a {
 }
 
 a.blog-title {
-    color: #DB0042;
+    color: #e8ff26;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -319,7 +319,7 @@ a.blog-title {
     }
 
     a.blog-title {
-        color: #DB0042;
+        color: #e8ff26;
     }
 }
 
