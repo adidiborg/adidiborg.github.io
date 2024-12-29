@@ -342,10 +342,8 @@ hr {
 }
 
 body:hover {
-    border-image: ;
     border-width: 0;
 }
-
 
 small a {
     padding-right: 0.61803rem;

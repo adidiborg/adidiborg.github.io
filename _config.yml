@@ -1,7 +1,7 @@
 ###########
 # site.title
 
-title: adidiborg
+title: adidiborg's internet home
 description: adidiborg's website
 # baseurl: "/jekyllBear" # the subpath of your site, e.g. /blog/
 url: "https://adidiborg.github.io" # the base hostname & protocol for your site
