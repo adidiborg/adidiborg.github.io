@@ -281,6 +281,17 @@ a.blog-title {
     color: #e8ff26;
 }
 
+.post-date {
+    padding-top: 1rem;
+    font-size: 17px;
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    color: #999;
+    display: none;
+}
+
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1E1F21;
