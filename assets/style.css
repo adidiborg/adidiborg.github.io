@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 body {
     font-family: "benton-sans", sans-serif;
     margin: auto;
@@ -281,16 +283,19 @@ a.blog-title {
     color: #e8ff26;
 }
 
-.post-date {
+.blog-date {
     padding-top: 1rem;
-    font-size: 17px;
+    font-size: 0.9rem;
     margin: 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: IBM Plex Mono, monospace;
     font-weight: 400;
     color: #999;
-    display: none;
 }
 
+.blog-body {
+    border-top: 1px solid;
+    padding-top: 1rem;
+}
 
 @media (prefers-color-scheme: dark) {
     body {
