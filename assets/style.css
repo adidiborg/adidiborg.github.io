@@ -289,7 +289,12 @@ a.blog-title {
     margin: 0;
     font-family: IBM Plex Mono, monospace;
     font-weight: 400;
-    color: #999;
+    color: #EEEEEE;
+}
+
+.blog-heading {
+    color: #e8ff26;
+    margin-top:0;
 }
 
 .blog-body {
